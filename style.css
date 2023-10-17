@@ -1,0 +1,152 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: block;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.8);
+    align-items: center;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav a:hover {
+    background-color: #bdbdbd;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 5px;
+}
+
+.group-section {
+    margin: 0 auto;
+    width: 1100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.about-us-txt {
+    margin: 40px;
+}
+
+.about-us-txt h1, .about-us-txt h5 {
+    text-align: center;
+}
+
+.about-us-txt span {
+    background-color: #d3d3d3;
+    padding: 2px;
+}
+
+.promotions {
+    display: flex;
+    justify-content: center;
+}
+
+.promotions-txt {
+    margin-right: 40px;
+}
+
+.promotions-txt h1 {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-txt {
+    margin-bottom: 20px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: green;
+}
+
+footer a:focus{
+    color: green;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 20px 0;
+}
